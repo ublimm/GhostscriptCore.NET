@@ -15,21 +15,6 @@
  * allows you to run multiple Ghostscript instances simultaneously within a single process.
  * compatible with 32-bit and 64-bit Ghostscript native library.
 
-**Latest changes - 2021-03-09 - v.1.2.3.**
-* fixed GhostscriptRasterizer/GhostscriptViewer and Ghostscript v.9.50+ compatibility issues.
-
-**Latest changes - 2021-02-04 - v.1.2.2.**
- * fixed Ghostscript v.9.26 + (all later versions) compatibility.
- * fixed problem when opening path/file that contains non ASCII characters.
- * fixed "Arithmetic operation resulted in an overflow" when using multithread instance.
- * changed Y and Y DPI settings to match GhostscriptViewer.
- * fixed CurrentPage -> TotalPages logging.
- * fixed watermark transparency bug for PDF.
- 
-[If you have found **Ghostscript.NET** useful and has contributed to your project **consider donating**. Donating helps support **Ghostscript.NET**.](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GS6S7RCAB7KAQ)
-
-[<img src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" alt="Click here to lend your support to: Ghostscript.NET and make a donation at pledgie.com !" />](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GS6S7RCAB7KAQ)
-
 **LICENSE**
 
  Ghostscript.NET is distributed under the GNU Affero General Public License (see COPYING file).
